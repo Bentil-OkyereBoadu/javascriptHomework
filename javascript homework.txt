@@ -1,0 +1,25 @@
+$ git clone maryose-hw jsHomework
+fatal: repository 'maryose-hw' does not exist
+$ git clone maryose-hw/ jsHomework
+fatal: repository 'maryose-hw/' does not exist
+$ git clone maryrose-hw bentil-hw
+Cloning into 'bentil-hw'...
+done.
+$ cd bentil-hw
+$ git branch comments-hw
+$ git checkout comments-hw
+Switched to branch 'comments-hw'
+$ git add homework.js
+$ git commit -m "adding comments"
+[comments-hw 89be481] adding comments
+ 1 file changed, 1 insertion(+)
+$ git push origin comments-hw
+Counting objects: 3, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To /home/ccuser/workspace/js-homework/maryrose-hw
+ * [new branch]      comments-hw -> comments-hw
+$ cd ../maryrose-hw
+$ 
